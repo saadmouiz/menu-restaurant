@@ -1,0 +1,138 @@
+/* General styling */
+.color-body {
+  background-color: #F0F2F5; /* Changement vers une couleur plus douce */
+ 
+}
+
+.font {
+  font-family: "Almarai", sans-serif;
+}
+
+/* Title */
+.title {
+  color: #1C3D5A;
+  font-family: Almarai, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Underline */
+.underline {
+  height: 2px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #FF6347;
+  margin: 0 auto 20px;
+}
+
+/* Button styling */
+.btno {
+  color: #FFFFFF;
+  background-color: #FF6347;
+  font-family: Almarai, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  letter-spacing: 0;
+  line-height: 1.5;
+  border-radius: 50px; /* Rounded buttons */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btno:hover {
+  background-color: #FF4500; /* Darker hover color */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image item */
+.img-item {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.img-item:hover {
+  transform: scale(1.1); /* Image zoom effect on hover */
+}
+
+/* Item description */
+.item-description {
+  color: #6C757D;
+  font-family: Almarai, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+
+/* Item title */
+.item-title {
+  color: #2C3E50;
+  font-family: Almarai, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+/* Card color */
+.card-color {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-color:hover {
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Item price */
+.item-price {
+  color: #FF6347;
+  font-family: Almarai, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+/* Search button */
+.btn-search {
+  color: #FF6347;
+  border: 2px solid #FF6347;
+  border-radius: 30px;
+  padding: 8px 20px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-search:hover {
+  color: white;
+  background-color: #FF6347;
+  border: 2px solid #FF6347;
+  transform: scale(1.05); /* Subtle scaling on hover */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Brand color */
+.brand-color {
+  color: #FF6347;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
